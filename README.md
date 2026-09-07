@@ -22,3 +22,5 @@ HPC access established. Environment, VCF structure, reference build, duplicate h
 ## Data protection
 
 Never commit raw VCFs, VCF indexes, controlled metadata, patient-level information, passwords, SSH keys, API tokens, or large generated results.
+
+
