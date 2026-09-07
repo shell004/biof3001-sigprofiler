@@ -1,0 +1,36 @@
+# Raw or controlled genomic data
+data/
+raw_data/
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.tbi
+*.bcf
+*.bam
+*.cram
+*.fastq
+*.fastq.gz
+
+# Large generated analysis output
+04_matrices/
+05_extractor/
+06_cosmic_comparison/
+07_outliers/
+08_figures/
+
+# Large/log-like output
+*.out
+*.err
+*.log
+
+# Credentials and secrets
+.env
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
