@@ -1,0 +1,22 @@
+pilot_sample_label: pilot_TCGA_STAD
+pilot_vcf: /storage5/jwlab/Jason/TCGA_WGS/0025dfac-4b68-4f94-be57-b2a9f9ca231a/TCGA_STAD.7bbd5e83-0a87-4f21-8e16-8e82ac9fb50a.wgs.GATK4_MuTect2_Pair.somatic_annotation.vcf.gz
+vcf_size:
+4.0M /storage5/jwlab/Jason/TCGA_WGS/0025dfac-4b68-4f94-be57-b2a9f9ca231a/TCGA_STAD.7bbd5e83-0a87-4f21-8e16-8e82ac9fb50a.wgs.GATK4_MuTect2_Pair.somatic_annotation.vcf.gz
+
+sample_header:
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	NORMAL	TUMOR
+
+total_variant_records:
+17979
+
+PASS_records:
+14950
+
+PASS_canonical_SBS_records:
+10260
+
+FILTER_counts:
+  14950 PASS
+   2859 alignment
+    228 bSeq
+      6 bPcr

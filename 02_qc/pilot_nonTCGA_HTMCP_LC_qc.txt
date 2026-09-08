@@ -1,0 +1,22 @@
+pilot_sample_label: pilot_nonTCGA_HTMCP_LC
+pilot_vcf: /storage5/jwlab/Jason/nonTCGA_annotated/000322a8-30b2-409a-aba2-1d02cd65a29d/CGCI_HTMCP-LC.a715d1e1-8206-41c8-9c79-a53b5dc1b93d.wgs.GATK4_MuTect2_Pair.somatic_annotation.vcf.gz
+vcf_size:
+17M /storage5/jwlab/Jason/nonTCGA_annotated/000322a8-30b2-409a-aba2-1d02cd65a29d/CGCI_HTMCP-LC.a715d1e1-8206-41c8-9c79-a53b5dc1b93d.wgs.GATK4_MuTect2_Pair.somatic_annotation.vcf.gz
+
+sample_header:
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	NORMAL	TUMOR
+
+total_variant_records:
+108458
+
+PASS_records:
+93120
+
+PASS_canonical_SBS_records:
+89139
+
+FILTER_counts:
+  93120 PASS
+  14630 alignment
+    848 oxog
+      4 bPcr
